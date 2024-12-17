@@ -4,13 +4,13 @@ const container = document.querySelector ('.container');
 
 for (let i = 1; i < 257; i++) {
   const square = document.createElement('div');
-  container.appendChild(square);}
+  
+  container.appendChild(square);
+  
+  square.addEventListener('mouseover', (event) => {
+    event.target.style.backgroundColor = 'gray';
+  })}
 
 
-// container.style.display = ('flex');
-// container.style.justifyContent = ('space-between');
-
-
-// square.style.border = ('2px, solid, black')
 
 
