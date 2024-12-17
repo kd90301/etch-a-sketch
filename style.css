@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
 }
 
+body {
+display: flex;
+justify-content: center;
+margin-top: 60px;}
+
 .container {
-  margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
   width: 640px;
