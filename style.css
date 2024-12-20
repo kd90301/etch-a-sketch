@@ -7,7 +7,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 60px; */
 }
 
 button {
@@ -21,7 +20,7 @@ button {
 }
 
 button:hover {
-  background-color: #64dcb0; /* Green */
+  background-color: #64dcb0; 
   color: rgb(9, 9, 9);
 }  
 
